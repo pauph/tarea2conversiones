@@ -11,16 +11,16 @@ int main(){
 	printf("\t\t\t\t\t\t\t\t Conversiones \n");
 	
 	
-	int celsius = 18;
-	int fahrenheit = 86;
-	int temperaturaFahrenheit = (9/5.0)*celsius +32;
-	int temperaturaCelsius = (fahrenheit -32.0)*(5.0/9.0);
+	float celsius = 18;
+	float fahrenheit = 86;
+	float temperaturaFahrenheit = (9/5.0)*celsius +32;
+	float temperaturaCelsius = (fahrenheit -32.0)*(5.0/9.0);
 	
 	color(hConsole,15);
 	printf("\n\n\t\t\t\tTemperatura Celsius:");
 	
 	color(hConsole,14);
-	printf(" %d%c", celsius, 167);
+	printf(" %f%c", celsius, 167);
 	
 	color(hConsole,12);
 	printf("\t%c", 175);
@@ -29,13 +29,13 @@ int main(){
 	printf("\tTemperatura Celsius a Fahrenheit:");
 	
 	color(hConsole,14);
-	printf(" %d%c" , temperaturaFahrenheit,167);
+	printf(" %f%c" , temperaturaFahrenheit,167);
 	
 	color(hConsole,15);
 	printf("\n\n\t\t\t\tTemperatura Fahrenheit:");
 	
 	color(hConsole,14);
-	printf(" %d%c", fahrenheit, 167); 
+	printf(" %f%c", fahrenheit, 167); 
 	
 	color(hConsole,12);
 	printf("\t%c", 175);
@@ -44,7 +44,7 @@ int main(){
 	printf("\tTemperatura Fahrenheit a Celius:");
 	
 	color(hConsole,14);
-	printf(" %d%c\n" , temperaturaCelsius,167);
+	printf(" %f%c\n" , temperaturaCelsius,167);
 	
 	color(hConsole,15);
 	
